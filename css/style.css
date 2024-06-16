@@ -1,3 +1,7 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
 .main-nav {
   background-color: #1e202b;
 }
@@ -13,7 +17,7 @@
 
 .main-nav .logo-text,
 .main-nav .nav-link,
-.main-nav .nav-link.active {
+.main-nav .nav-link {
   color: #fff;
 }
 .main-nav .nav-link {
@@ -21,10 +25,75 @@
 }
 .main-nav .nav-link.active {
   border: 2px solid #009ad8;
+  color: #009ad8;
 }
 
 .main-nav .nav-link:hover {
   border: 2px solid #009ad8;
   cursor: pointer;
   color: #009ad8;
+}
+
+/* search */
+.search {
+  background-image: url("../imgs/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.search .input-form {
+  position: relative;
+}
+.search .search-input {
+  background-color: #1e202b;
+  color: #fff;
+  padding-left: 20px;
+}
+.search .search-input:focus {
+  outline: none;
+}
+
+.search .search-btn {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #009ad8;
+  color: #fff;
+  padding: 10px 40px;
+}
+
+/* foracsting */
+.forcast {
+  background-color: #1e202b;
+  /* position: relative; */
+  max-height: 350px;
+}
+.forcast-cards {
+  position: relative;
+  top: -200px;
+  /* transform: translateY(-200px); */
+}
+.forcast .temperature {
+  font-size: 6.5rem;
+  text-align: center;
+}
+.forcast .forcast-date {
+  color: #fff;
+}
+.forcast-card-head {
+  background-color: #2d303d;
+}
+.forcast-card-body {
+  background-color: #323544;
+}
+.forcast-card-head-2 {
+  background-color: #222530;
+}
+.forcast-card-body-2 {
+  background-color: #262936;
 }
