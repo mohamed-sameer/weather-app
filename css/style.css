@@ -70,16 +70,14 @@ body {
 /* foracsting */
 .forcast {
   background-color: #1e202b;
-  /* position: relative; */
-  max-height: 350px;
 }
+
 .forcast-cards {
   position: relative;
-  top: -200px;
-  /* transform: translateY(-200px); */
+  top: -100px;
 }
 .forcast .temperature {
-  font-size: 6.5rem;
+  font-size: 6.4rem;
   text-align: center;
 }
 .forcast .forcast-date {
@@ -96,4 +94,45 @@ body {
 }
 .forcast-card-body-2 {
   background-color: #262936;
+}
+.forcast .weather-status {
+  color: #009ad8;
+}
+
+/* footer */
+footer {
+  background-color: #262936;
+}
+
+footer .newsletter .form {
+  position: relative;
+}
+
+footer .newsletter .form .sub-input {
+  outline: none;
+  background-color: #1e202b;
+}
+footer .newsletter .newsletter-btn {
+  position: absolute;
+  right: 5px;
+  padding: 10px 20px;
+  background-color: #009ad8;
+  color: #fff;
+}
+
+footer .social-icon {
+  background-color: #1e202b;
+  color: #009ad8;
+  padding: 10px 12px;
+  transition: all 0.5s;
+}
+
+footer .social-icon:hover {
+  background-color: #009ad8;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer .copyright {
+  color: #bfc1c8;
 }
