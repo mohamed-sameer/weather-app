@@ -5,13 +5,13 @@ const BASE_URL = "https://api.weatherapi.com/";
 const API_KEY = "7d77b96c972b4d119a3151101212704";
 
 const days = [
-  "Saturday",
   "Sunday",
   "Moday",
   "Tuesday",
   "Wednesday",
   "Thursday",
   "Friday",
+  "Saturday",
 ];
 const months = [
   "January",
